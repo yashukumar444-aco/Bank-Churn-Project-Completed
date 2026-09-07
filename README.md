@@ -22,6 +22,16 @@ pip install streamlit pandas plotly
 streamlit run Untitled-1.py
 ```
 
+## Deploy on Streamlit Community Cloud
+
+1. Open [share.streamlit.io](https://share.streamlit.io/) and sign in with GitHub.
+2. Select the repository `yashukumar444-aco/Bank-Churn-Project-Completed`.
+3. Select the `main` branch.
+4. Set the main file path to `Untitled-1.py`.
+5. Click **Deploy**. Streamlit Cloud will install the packages from `requirements.txt`.
+
+The dashboard reads `European_Bank (1).csv` from the repository, so no secrets or extra configuration are required.
+
 ## GitHub push steps
 
 ```bash
